@@ -1,0 +1,6 @@
+[package]
+name = "split_strings_515de9ae9dcfc28eb6000001"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
