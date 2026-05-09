@@ -1,5 +1,4 @@
 use std::collections::VecDeque;
-
 fn max_rot(n: u64) -> u64 {
     let mut chars = n.to_string().chars().collect::<VecDeque<char>>();
     let mut rotated:Vec<u64> = Vec::with_capacity(chars.len());

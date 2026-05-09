@@ -1,5 +1,5 @@
 fn string_to_number(s: &str) -> i32 {
-    todo!()
+    s.parse::<i32>().unwrap()
 }
 
 #[cfg(test)]
