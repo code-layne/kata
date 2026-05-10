@@ -1,14 +1,14 @@
-pub fn add(left: u64, right: u64) -> u64 {
-    left + right
+fn _dna_to_rna(dna: &str) -> String {
+    dna.replace("T", "U")
 }
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::_dna_to_rna;
 
     #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
+    fn returns_expected() {
+        assert_eq!(_dna_to_rna("TTTT"), "UUUU");
+        assert_eq!(_dna_to_rna("GCAT"), "GCAU");
     }
 }
