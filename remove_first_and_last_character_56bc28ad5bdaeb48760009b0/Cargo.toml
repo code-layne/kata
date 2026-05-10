@@ -1,0 +1,6 @@
+[package]
+name = "remove_first_and_last_character_56bc28ad5bdaeb48760009b0"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
