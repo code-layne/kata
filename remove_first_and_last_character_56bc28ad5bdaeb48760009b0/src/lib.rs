@@ -1,5 +1,5 @@
 pub fn _remove_char(s: &str) -> String {
-    String::from(s)
+    s[1..s.len() - 1].to_string()
 }
 
 #[cfg(test)]
