@@ -1,0 +1,6 @@
+[package]
+name = "remove_string_spaces_57eae20f5500ad98e50002c5"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
