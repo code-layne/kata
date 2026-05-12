@@ -1,6 +1,7 @@
-fn _no_space(x : String) -> String{
-    todo!()
+fn _no_space(s : String) -> String{
+   s.replace(" ", "")
 }
+
 #[test]
 fn returns_expected() {
     assert_eq!("8j8mBliB8gimjB8B8jlB", _no_space("8 j 8   mBliB8g  imjB8B8  jl  B".to_string()));
