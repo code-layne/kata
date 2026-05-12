@@ -1,0 +1,6 @@
+[package]
+name = "vowel_count_54ff3102c1bad923760001f3"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
