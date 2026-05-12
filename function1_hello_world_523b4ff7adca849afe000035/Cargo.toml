@@ -1,0 +1,6 @@
+[package]
+name = "function1_hello_world_523b4ff7adca849afe000035"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
