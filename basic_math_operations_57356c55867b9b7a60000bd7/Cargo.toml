@@ -1,0 +1,6 @@
+[package]
+name = "basic_math_operations_57356c55867b9b7a60000bd7"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
