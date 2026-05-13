@@ -1,0 +1,6 @@
+[package]
+name = "highest_lowest_554b4ac871d6813a03000035"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
