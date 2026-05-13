@@ -1,0 +1,6 @@
+[package]
+name = "find_next_perfect_square_56269eb78ad2e4ced1000013"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
