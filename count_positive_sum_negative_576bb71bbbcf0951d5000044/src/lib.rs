@@ -1,5 +1,10 @@
 fn _count_positives_sum_negatives(input: Vec<i32>) -> Vec<i32> {
-    input
+    if input.is_empty() {
+        return Vec::new();
+    }
+    let positives = input.iter().filter(|x| *x > &0i32).count() as i32;
+    let negatives = input.iter().filter(|x| *x < &0i32).sum();
+    vec![positives, negatives]
 }
 
 #[cfg(test)]
