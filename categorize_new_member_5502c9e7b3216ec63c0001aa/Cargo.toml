@@ -1,0 +1,6 @@
+[package]
+name = "categorize_new_member_5502c9e7b3216ec63c0001aa"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
