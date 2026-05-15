@@ -1,5 +1,5 @@
 fn _solution(phrase: &str) -> String {
-    phrase.to_string()
+    phrase.chars().into_iter().rev().collect::<String>()
 }
 
 #[cfg(test)]
