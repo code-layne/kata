@@ -1,0 +1,6 @@
+[package]
+name = "calculate_bmi_57a429e253ba3381850000fb"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
