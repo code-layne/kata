@@ -1,0 +1,6 @@
+[package]
+name = "reversed_strings_5168bb5dfe9a00b126000018"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
