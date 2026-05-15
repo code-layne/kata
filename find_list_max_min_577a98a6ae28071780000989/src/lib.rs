@@ -1,9 +1,9 @@
 fn _minimum(arr: &[i32]) -> i32 {
-    arr[0]
+    *(arr.iter().min().unwrap())
 }
 
 fn _maximum(arr: &[i32]) -> i32 {
-    arr[0]
+    *(arr.iter().max().unwrap())
 }
 
 // Add your tests here.
