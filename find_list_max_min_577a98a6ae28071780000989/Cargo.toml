@@ -1,0 +1,6 @@
+[package]
+name = "find_list_max_min_577a98a6ae28071780000989"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
