@@ -1,5 +1,8 @@
 fn _find_short(s: &str) -> u32 {
-    s.len() as u32
+    s.split_whitespace()
+        .map(|word| word.len())
+        .min()
+        .unwrap() as u32
 }
 #[cfg(test)]
 mod tests {
