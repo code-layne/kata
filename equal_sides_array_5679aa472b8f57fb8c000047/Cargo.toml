@@ -1,0 +1,6 @@
+[package]
+name = "equal_sides_array_5679aa472b8f57fb8c000047"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
