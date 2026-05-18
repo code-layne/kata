@@ -1,5 +1,9 @@
 fn _abbrev_name(name: &str) -> String {
-   name.to_string()
+    let inits = name
+        .split_whitespace()
+        .map(|word| word.chars().next().unwrap().to_ascii_uppercase())
+        .collect::<Vec<char>>();
+    format!("{}.{}", inits.first().unwrap(), inits.last().unwrap())
 }
 // Rust test example:
 #[test]
