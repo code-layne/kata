@@ -1,0 +1,6 @@
+[package]
+name = "array_diff_523f5d21c841566fde000009"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
