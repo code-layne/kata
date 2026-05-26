@@ -1,5 +1,15 @@
 fn _square_digits(num: u64) -> u64 {
-    num
+    num.to_string()
+        .chars()
+        .map(|c| {
+            c.to_digit(10)
+                .expect("char isn't a digit")
+                .pow(2)
+                .to_string()
+        })
+        .collect::<String>()
+        .parse()
+        .expect("result not u64 parseable")
 }
 
 #[cfg(test)]
