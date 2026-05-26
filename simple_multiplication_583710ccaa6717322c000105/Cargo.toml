@@ -1,0 +1,6 @@
+[package]
+name = "simple_multiplication_583710ccaa6717322c000105"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
