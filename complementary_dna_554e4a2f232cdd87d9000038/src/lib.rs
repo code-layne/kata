@@ -1,5 +1,13 @@
 fn _dna_strand(dna: &str) -> String {
-    dna.to_string()
+    dna.chars().map(|c| {
+        match c.to_ascii_uppercase() {
+            'A' => 'T',
+            'T' => 'A',
+            'G' => 'C',
+            'C' => 'G',
+            _ => panic!("invalid DNA base"),
+        }
+    }).collect::<String>()
 }
 
 #[cfg(test)]
