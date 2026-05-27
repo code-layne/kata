@@ -1,7 +1,10 @@
 use either::Either;
 
 fn _sum_mix(arr: &[Either<i32, String>]) -> i32 {
-    arr.len() as i32
+    arr.iter().fold(0, |sum, num| match num {
+        Either::Left(n) =>  sum + *n,
+        Either::Right(s) => sum + s.parse::<i32>().unwrap(),
+    })
 }
 
 #[cfg(test)]
