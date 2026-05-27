@@ -1,0 +1,6 @@
+[package]
+name = "odd_or_even_5949481f86420f59480000e7"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
