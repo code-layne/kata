@@ -1,0 +1,6 @@
+[package]
+name = "total_points_5bb904724c47249b10000131"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
