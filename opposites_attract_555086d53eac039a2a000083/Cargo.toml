@@ -1,0 +1,6 @@
+[package]
+name = "opposites_attract_555086d53eac039a2a000083"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
