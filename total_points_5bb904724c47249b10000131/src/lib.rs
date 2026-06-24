@@ -1,5 +1,14 @@
 fn _points(games: &[String]) -> u32 {
-    games.len() as u32
+    games.into_iter().fold(0, |acc, game| {
+        let (x,y) = game.split_once(':').unwrap();
+        let x: u32 = x.parse().unwrap();
+        let y: u32 = y.parse().unwrap();
+        acc + match x.cmp(&y) {
+            std::cmp::Ordering::Less => 0,
+            std::cmp::Ordering::Equal => 1,
+            std::cmp::Ordering::Greater => 3
+        }
+    })
 }
 
 #[cfg(test)]
