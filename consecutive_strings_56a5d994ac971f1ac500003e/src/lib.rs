@@ -1,5 +1,15 @@
 fn _longest_consec(strarr: Vec<&str>, k: usize) -> String {
-    strarr.first().unwrap().repeat(k)
+    let mut longest = String::new();
+
+    if k == 0 { return longest };
+
+    for candidate in strarr.windows(k).map(|w| w.join("")) {
+        if candidate.len() > longest.len() {
+            longest = candidate;
+        }
+    }
+
+    longest
 }
 
 fn _testing(strarr: Vec<&str>, k: usize, exp: &str) -> () {
