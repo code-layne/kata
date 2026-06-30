@@ -1,8 +1,11 @@
 use std::collections::HashMap;
 
 fn _count(input: &str) -> HashMap<char, i32> {
-    println!("{}", input);
-    HashMap::new()
+    let mut counts = HashMap::new();
+    input.chars().for_each(|c| {
+        *counts.entry(c).or_insert(0) += 1;
+    });
+    counts
 }
 // Add your tests here.
 // See https://doc.rust-lang.org/stable/rust-by-example/testing/unit_testing.html
