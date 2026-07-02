@@ -1,0 +1,6 @@
+[package]
+name = "removing_elements_5769b3802ae6f8e4890009d2"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
