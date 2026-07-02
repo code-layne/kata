@@ -1,6 +1,7 @@
 fn _find_smallest_int(arr: &[i32]) -> i32 {
-    arr.iter().sum()
+    *arr.iter().min().unwrap()
 }
+
 // Rust test example:
 #[test]
 fn sample_tests() {
